@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ear {
+    top:0;
+    padding:400px;
+    background-color: #A6BECF;
+    position: absolute;
+    border-radius: 500px;
+    border: 10px solid black;
+
+
+}
+
+.koala {
+    padding: 375px 375px 375px 375px;
+    background-color: #A6BECF;
+    position: absolute;
+    border-radius: 500px;
+    border: 10px solid black;
+}
+
+
