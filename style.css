@@ -6,17 +6,6 @@ body {
     margin: 0;
 }
 
-.ear {
-    top:0;
-    padding:400px;
-    background-color: #A6BECF;
-    position: absolute;
-    border-radius: 500px;
-    border: 10px solid black;
-
-
-}
-
 .koala {
     padding: 375px 375px 375px 375px;
     background-color: #A6BECF;
@@ -24,5 +13,62 @@ body {
     border-radius: 500px;
     border: 10px solid black;
 }
+.ear {
+    top:-100px;
+    padding:250px;
+    background-color: #A6BECF;
+    position: absolute;
+    border-radius: 500px;
+    border: 10px solid black;
+}
 
+.left-ear {
+    left:-30%;
+}
 
+.right-ear {
+    right:-30%;
+}
+.head{
+    padding: 40%;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    border-radius: 40%;
+}
+
+.eye{
+    top:40%;
+    padding:100px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 500px;
+    border: 10px solid rgb(0, 0, 0);
+}
+.left-eye{
+    left:25%;
+}
+.right-eye{
+    right:25%;
+}
+.pupil{
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    padding:40px;
+    bottom:60px;
+    right:60px;
+}
+.nose{
+    padding:50px;
+    bottom:20px;
+    position: absolute;
+    background:black;
+    
+}
