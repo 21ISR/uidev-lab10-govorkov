@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.koala {
+    padding: 375px 375px 375px 375px;
+    background-color: #A6BECF;
+    position: absolute;
+    border-radius: 500px;
+    border: 10px solid black;
+}
+.ear {
+    top: -160px;
+    padding: 230px;
+    background-color: #A6BECF;
+    position: absolute;
+    border-radius: 500px;
+    border: 10px solid black;
+    z-index: -1;
+}
+
+.left-ear {
+    left:-25%;
+}
+
+.right-ear {
+    right:-25%;
+}
+.head{
+    padding: 40%;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    border-radius: 40%;
+}
+
+.eye{
+    top:40%;
+    padding:100px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 500px;
+    border: 10px solid rgb(0, 0, 0);
+}
+.left-eye{
+    left:24%;
+}
+.right-eye{
+    right:24%;
+}
+.pupil{
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    padding:40px;
+    bottom:60px;
+    right:60px;
+}
+.nose {
+    padding: 50px 40px 50px 40px;
+    position: absolute;
+    background: black;
+    bottom: 24%;
+    border-radius: 100%;
+}
+.mouth {
+    padding: 0px 130px 80px 40px;
+    position: absolute;
+    background: black;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    bottom: 10%;
+}
