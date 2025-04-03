@@ -14,20 +14,21 @@ body {
     border: 10px solid black;
 }
 .ear {
-    top:-100px;
-    padding:250px;
+    top: -160px;
+    padding: 230px;
     background-color: #A6BECF;
     position: absolute;
     border-radius: 500px;
     border: 10px solid black;
+    z-index: -1;
 }
 
 .left-ear {
-    left:-30%;
+    left:-25%;
 }
 
 .right-ear {
-    right:-30%;
+    right:-25%;
 }
 .head{
     padding: 40%;
@@ -52,10 +53,10 @@ body {
     border: 10px solid rgb(0, 0, 0);
 }
 .left-eye{
-    left:25%;
+    left:24%;
 }
 .right-eye{
-    right:25%;
+    right:24%;
 }
 .pupil{
     background-color: black;
@@ -65,10 +66,18 @@ body {
     bottom:60px;
     right:60px;
 }
-.nose{
-    padding:50px;
-    bottom:20px;
+.nose {
+    padding: 50px 40px 50px 40px;
     position: absolute;
-    background:black;
-    
+    background: black;
+    bottom: 24%;
+    border-radius: 100%;
+}
+.mouth {
+    padding: 0px 130px 80px 40px;
+    position: absolute;
+    background: black;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    bottom: 10%;
 }
